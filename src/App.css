@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.characterBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid brown;
+  width: 80%;
+  margin: 5px auto;
+
+}
+
+.good {
+  background-color: palegreen;
+
+}
+
+.evil {
+  background-color: indianred;
+}
